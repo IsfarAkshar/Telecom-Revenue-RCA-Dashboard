@@ -1,4 +1,8 @@
+streamlit
 pandas
 matplotlib
+openpyxl
 transformers
-torch              # Required for running Hugging Face models
+torch
+
+
