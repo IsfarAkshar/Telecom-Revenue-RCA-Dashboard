@@ -1,0 +1,4 @@
+pandas
+matplotlib
+transformers
+torch              # Required for running Hugging Face models
