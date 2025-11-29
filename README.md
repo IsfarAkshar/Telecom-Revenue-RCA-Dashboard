@@ -1,3 +1,6 @@
+# Direct Link
+https://telecom-revenue-rca-dashboard-fcm8mjgkgcvs7khmwuv9za.streamlit.app/
+
 # Telecom Revenue RCA Dashboard
 
 A Python + Streamlit dashboard for **root cause analysis (RCA)** of telecom revenue KPIs.  
