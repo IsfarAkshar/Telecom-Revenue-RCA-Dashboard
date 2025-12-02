@@ -247,7 +247,7 @@ def format_driver_row(row, section_col):
     return f"{label} ({ac_business:+,.2f} / {pct_change:+.2f}%)"
 
 
-def get_top_drivers_by_section(rca_df, section, top_n_pos=3, top_n_neg=3):
+def get_top_drivers_by_section(rca_df, section, top_n_pos=2, top_n_neg=2):
     df_sec = rca_df[rca_df["Section"] == section].copy()
     if df_sec.empty:
         return [], []
@@ -349,3 +349,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
